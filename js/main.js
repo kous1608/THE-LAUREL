@@ -12,7 +12,7 @@ function validate() {
             close: true,
             button: false,
           });
-        window.location = "user/nguyenvietthanh";
+        window.location = "user/nguyenvietthanh/index.html";
         return true;
        
     }
