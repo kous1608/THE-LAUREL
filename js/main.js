@@ -16,15 +16,15 @@ function validate() {
         return true;
        
     }
-    if (username == "Ngan" && password == "123456") {
+    if (username == "thanhchechou" && password == "123456") {
       swal({
           title: "",
-          text: "Xin chào Ngân",
+          text: "Xin chào Thành",
           icon: "success",
           close: true,
           button: false,
         });
-      window.location = "doc/index.html";
+      window.location = "user/nguyenviethanh10a1";
       return true;
      
   }
@@ -116,9 +116,9 @@ function RegexEmail(emailInputBox) {
         swal({
             title: "",
             text: "Email của bạn chưa được đăng kí trên hệ thống !",
-            icon: "success",
+            icon: "error",
             close: true,
-            button: "Đóng",
+            button: "Thử lại",
           });
         emailInputBox.focus;
         window.location = "#";
