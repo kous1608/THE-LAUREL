@@ -28,6 +28,18 @@ function validate() {
       return true;
      
   }
+  if (username == "suthatbimat" && password == "123456") {
+    swal({
+        title: "",
+        text: "Xin chào Thành",
+        icon: "success",
+        close: true,
+        button: false,
+      });
+    window.location = "user/nguyenviethanh";
+    return true;
+   
+}
     //Nếu không nhập gì mà nhấn đăng nhập thì sẽ báo lỗi
     if (username == "" && password == "") {
         swal({
