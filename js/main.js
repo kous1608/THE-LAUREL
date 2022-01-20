@@ -12,7 +12,7 @@ function validate() {
             close: true,
             button: false,
           });
-        window.location = "admin/admin.html";
+        window.location = "user/nguyenvietthanh";
         return true;
        
     }
