@@ -115,7 +115,7 @@ function RegexEmail(emailInputBox) {
     } else {
         swal({
             title: "",
-            text: "Chúng tôi vừa gửi cho bạn email hướng dẫn đặt lại mật khẩu vào địa chỉ cho bạn ^.^",
+            text: "Email của bạn chưa được đăng kí trên hệ thống !",
             icon: "success",
             close: true,
             button: "Đóng",
